@@ -1,32 +1,17 @@
-# React + TypeScript + Vite
+# mdxcn showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+mdxcn コンポーネントの使い方ショーケースです。ライブデモとコード例を GitHub Pages で公開しています。
 
-Currently, two official plugins are available:
+- 公開サイト: https://watanabe3tipapa.github.io/mdxcn-pe/
+- プロジェクト全体の説明は [リポジトリ直下の README](../README.md) をご覧ください。
+- 起動: `pnpm install && pnpm dev`（GitHub Pages 用に `base: /mdxcn-pe/` を設定済み）
+- デプロイ: `.github/workflows/deploy-showcase.yml` が `showcase/**` の変更で自動実行
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## mdxcn の更新
 
-## React Compiler
+このディレクトリにも同期スクリプトが入っています。
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+pnpm mdxcn:status   # 差分検知
+pnpm mdxcn:update   # 上書き → ロック更新 → ビルド検証
 ```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
