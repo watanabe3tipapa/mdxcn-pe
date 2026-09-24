@@ -311,7 +311,7 @@ function App() {
           id="palette"
           index="06 / palette"
           title="Palette 配色"
-          lead="palette プロパティで 3 色構成を切り替えられます。mono（デフォルト）は単色、duo は 2 色、multi は 3 色で CSS 変数 (--graph-accent-2 / -3) に紐づきます。"
+          lead="palette プロパティで配色の色数を切り替えられます。mono（デフォルト）は単色、duo は 2 色、multi は 3 色で、それぞれ CSS 変数の --graph-accent-2 / --graph-accent-3 に紐づきます。"
           demo={
             <div className="grid gap-8 sm:grid-cols-2">
               <GraphBars
