@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-09-24T19:01:15.626Z",
+  "files": {
+    "/Users/watanabe3tipapa/github/mdxcn-pe/mdxcn-dashboard/showcase/src/components/ui/graph-frame.tsx": "3305d6628806b968bb52729d37fb85e250462caa973e50eb09c81a63c2109959",
+    "/Users/watanabe3tipapa/github/mdxcn-pe/mdxcn-dashboard/showcase/src/lib/graph-motion.ts": "7777b99a727c2d15f01748a56386c3bbfcd315799d22ea8f10f88b3cdc497223",
+    "/Users/watanabe3tipapa/github/mdxcn-pe/mdxcn-dashboard/showcase/src/lib/graph-clock.ts": "17138044cf47e43f91db77274b2cd25c04c434da98fad787d94f53358acb3746",
+    "/Users/watanabe3tipapa/github/mdxcn-pe/mdxcn-dashboard/showcase/src/components/ui/graph-arrow.tsx": "c8ac3f9e5486a9bdaaf9a8c539c0d69feae888dca7e557a883e094f81e04e608",
+    "/Users/watanabe3tipapa/github/mdxcn-pe/mdxcn-dashboard/showcase/src/components/graph-bars.tsx": "15f42c8b98e3af601d4ef15ea4c51bb472462072f5261a71925cf95dad261ed2",
+    "/Users/watanabe3tipapa/github/mdxcn-pe/mdxcn-dashboard/showcase/src/components/graph-table.tsx": "cafa5463454027a7e36b44ed8d5f71e18c5999267453c25b534b63f1fe005bcb",
+    "/Users/watanabe3tipapa/github/mdxcn-pe/mdxcn-dashboard/showcase/src/components/graph-timeline.tsx": "a11d86b5772d290ed61bd8ce8d8607dc19763078db57c037e59a97541530e0f2"
+  }
+}
