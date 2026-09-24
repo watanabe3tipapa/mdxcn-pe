@@ -16,7 +16,7 @@ mdxcn-pe は、shadcn/ui レジストリ方式の ASCII フレーム図表セッ
 
 ## 概要
 
-mdxcn は「shadcn/add で自分のプロジェクトへコピーする」方式の React 図表セットで、搬入したソースはすべて手元のコードベースに取り込まれます。mdxcn-pe はその実践例として、`graph-bars` / `graph-table` / `graph-timeline` / `graph-frame` を導入し、
+mdxcn は「shadcn/add で自分のプロジェクトへコピーする」方式の React 図表セットで、取り込んだソースはそのまま手元のコードベースに残ります。mdxcn-pe はその実践例として、`graph-bars` / `graph-table` / `graph-timeline` / `graph-frame` を導入し、
 
 1. 本編ダッシュボード（リポジトリルート、Vercel で公開）
 2. 使い方ショーケース（`showcase/`、GitHub Actions で GitHub Pages に公開）
@@ -25,7 +25,7 @@ mdxcn は「shadcn/add で自分のプロジェクトへコピーする」方式
 
 ## コンセプト（なぜ「コピー」か）
 
-npm パッケージのようにブロックで固定するのではなく、図表のソースを自分のコードベースに**植え、育てる**というのが mdxcn の考え方です。育てたソースは編集も改良も自由ですが、その代わりレジストリ側の更新を忘れると古くなります。本プロジェクトではハッシュベースの同期機構（`.mdxcn-lock.json`）で差分を検知し、`pnpm mdxcn:update` 一つで更新を引き込んで鮮度を保ちます。
+npm パッケージとして配布するのではなく、図表のソースを自分のコードベースに**植え、育てる**というのが mdxcn の考え方です。育てたソースは編集も改良も自由ですが、その代わりレジストリ側の更新を忘れると古くなります。本プロジェクトではハッシュベースの同期機構（`.mdxcn-lock.json`）で差分を検知し、`pnpm mdxcn:update` 一つで更新を引き込んで鮮度を保ちます。
 
 主な対応:
 
